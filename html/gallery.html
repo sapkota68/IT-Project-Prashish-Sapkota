@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery page</title>
+    <link rel="stylesheet" href = "../css/navigation.css">
+    <style>
+        .imagecontainer
+        {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+        }
+       .imagecontainer img{
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+
+        .imagecontainer div{
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+       
+        <div class="topnav">
+            <img class= "logo" src="logoforIT.png" alt="logo of school" width="50px">
+        <nav>
+            <a  href="index.html">Home</a>
+            <a class= "active" href="gallery.html">Gallery</a>
+            <a href="Contact_Us.html">Contact Us</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+        </nav>
+        <input type="text"  class="searchengine" placeholder="Search..">
+        
+    </div>
+    </header>
+    <hr>
+
+    <h1>Some pictures of our School</h1>
+    <div class="imagecontainer">
+        <div>
+        <img src="garden.jpg" alt="Garden of School">
+        <p>Garden of School</p>
+        </div>
+
+        <div>
+        <img src="hallroom.jpg" alt="hallroom of School ">
+        <p>Hallroom of School</p>
+        </div>
+
+        <div>
+        <img src="student.jpg" alt="Library of School">
+        <p>Teachers of School</p>
+        </div>
+
+        <div>
+        <img src="School.jpg" alt="Building of School">
+        <p>Building of School</p>
+        </div>
+    </div>
+
+
+    <footer style="background-color: #f4f4f4; padding: 20px; text-align: center;"> 
+        <p>&copy; 2025 Wise Vision. All rights reserved</p>
+        <p>kawasoti-12, Nawalparasi | Phone: 010584393 | Email: info@wisevision.edu</p>
+        <p>
+            
+        Follow us:
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https:instagram.com" target="_blank">Instagram</a>
+        </p>
+
+    </footer>
+    
+</body>
+</html>

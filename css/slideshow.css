@@ -1,0 +1,71 @@
+.slideshow-container
+        {
+            max-width: 1200px;
+            position: relative;
+            margin: auto;
+        }
+
+
+        .mySlides
+        {
+            display:none;
+        }
+
+        .text, .numbertext
+        {
+            text-align: center;
+        }
+
+
+        .prev, .next
+        {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            font-weight: bold;
+            transition: 0.6s ease;
+            border-radius:  0 3px 3px 0;
+            user-select: none;
+        }
+
+        .next
+        {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .register
+        {
+            background-color: #8e44ad;
+            width: 10%;
+            border-radius: 3px;
+            justify-content: center;
+            height: 20%;
+        }
+
+
+        .dot{
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover{
+            background-color: #717171;
+        }
+
+        .fade
+        {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        

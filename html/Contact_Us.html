@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="../css/navigation.css">
+    <style>
+        .formcontainer
+        {
+            border: 1px solid #ccc;
+            max-width: 700px;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            text-align: center;
+            padding: 20px;
+
+        }
+
+        label{
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        select
+        {
+            width: 200px;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid#ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type = "radio"]{
+            margin-right: 5px;
+        }
+
+        input[type="submit"],
+        input[type="reset"]{
+            width: 48%;
+            padding: 10px;
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #4caf50;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        br{
+            margin-bottom: 10px;
+        }
+
+        
+    </style>
+    
+</head>
+<body>
+    <header class="header">
+       
+        <div class="topnav">
+            <img class= "logo" src="logoforIT.png" alt="logo of school" width="50px">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a class = "active" href="Contact_Us.html">Contact Us</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+        </nav>
+        <input type="text"  class="searchengine" placeholder="Search..">
+        
+    </div>
+    </header>
+    <hr>
+
+   <center> <h1>Personal Information</legend></h1></center>
+    <center><form method="get" action="" class="formcontainer">
+        <label>Enter the first Name:</label>
+        <input type="text" name="firstname" placeholder="first name"><br>
+
+        <label>Enter the Last Name:</label>
+        <input type="text" name="Lastname" placeholder="Last name"><br>
+
+        <label>Enter the Email:</label>
+        <input type="email" name="email" placeholder="..@gmail.com"><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female<br><br>
+
+        <label>Address:</label>
+        <input type="text" name="address"><br>
+
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob"><br>
+
+        <label>Country:</label>
+        <select id = "country" name="country">
+            <option value="nepal">Nepal</option>
+            <option value="nepal">India</option>
+            <option value="nepal">USA</option>
+            <option value="nepal">UK</option>
+            <option value="nepal">Australia</option>
+        </select>
+        <br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </center>
+    <br>
+
+
+
+    <footer style="background-color: #f4f4f4; padding: 20px; text-align: center;"> 
+        <p>&copy; 2025 Wise Vision. All rights reserved</p>
+        <p>kawasoti-12, Nawalparasi | Phone: 010584393 | Email: info@wisevision.edu</p>
+        <p>
+            
+        Follow us:
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https:instagram.com" target="_blank">Instagram</a>
+        </p>
+
+    </footer>
+
+
+
+
+
+
+    
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,57 @@
+.firstcontainer
+        {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            
+            background-color: #ffffff;
+            border-radius: 8px;
+            margin: 20px;
+            flex-wrap: wrap;
+        }
+
+        .firstcontainer .image img{
+            width: 100%;
+            max-width: 400px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0.2);
+        }
+
+        .firstcontainer .overview h3
+        {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .firstcontainer .overview
+        {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.8;
+            flex: 1;
+        }
+
+        .secondcontainer
+        {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .Mission, .History
+        {
+            padding: 16px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0.1);
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+            border: 1px solid #ddd;
+        }
+
+        .Mission h3, .History h3{
+            margin-bottom: 10px;
+            color: #333;
+        }

@@ -82,92 +82,40 @@
             <div class="text"> Conference Hall</div>
         </div>
 
-        <a class = "prev" onclick="plusSlides(-1)">&#10094</a>
-        <a class="next" onclick="plusSlides(1)">&#10095</a>
-        <br>
-    </div>
-
-
-    <div style="text-align: center;">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div><br>
-
-    <div class="intro-section" >
-    <h1>Wise Vision English School</h1>
-    <p>For your Greater future, This is the best choice</p>
-    </div>
-
-   <center><div class="register">
-        <p><a href ="#">Register Here</a></p>
+        <button onclick= "prevSlide()" class="nav prev">&#10094;</button>
+        <button onclick="nextSlide()" class="nav next">&#10095;</button>
         </div>
-    </center>
-   
-    <hr>
+        <script src="../javascript/imageslider.js"></script>
 
 
 
-    <footer style="background-color: #f4f4f4; padding: 20px; text-align: center;"> 
-        <p>&copy; 2025 Wise Vision. All rights reserved</p>
-        <p>kawasoti-12, Nawalparasi | Phone: 010584393 | Email: info@wisevision.edu</p>
-        <p>
+        <div class="intro-section" >
+            <h1>Wise Vision English School</h1>
+            <p>For your Greater future, This is the best choice</p>
+        </div>
+        
+        <center>
+        <div class="register">
+                <p><a href ="#">Register Here</a></p>
+        </div>
+        </center>
+        <hr>
+        
+        
+        
+<footer style="background-color: #f4f4f4; padding: 20px; text-align: center;"> 
+                <p>&copy; 2025 Wise Vision. All rights reserved</p>
+                <p>kawasoti-12, Nawalparasi | Phone: 010584393 | Email: info@wisevision.edu</p>
+                <p>
+                    
+                Follow us:
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+                </p>
+        
+</footer>
+        
             
-        Follow us:
-        <a href="https://facebook.com" target="_blank">Facebook</a>
-        <a href="https:instagram.com" target="_blank">Instagram</a>
-        </p>
-
-    </footer>
-
-    </footer>
-
-
-
-    <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n){
-            showSlides(slidesIndex += n);
-        }
-
-
-        function currentSlide(n)
-        {
-            showSlides(slideIndex = n);
-        }
-
-
-        function showSlides(n)
-        {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("dot");
-            if(n > slides.length)
-        {
-            slideIndex = 1
-        }
-
-        if(n < 1)
-        {slideIndex = slides.length}
-
-        for(i = 0; i< slides.length; i++)
-        {
-            slides[i].style.display = "none";
-        }
-
-        for(i = 0; i < dots.length; i++)
-        {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-
-        }
-    </script>
-
-    
 </body>
 </html>
+        

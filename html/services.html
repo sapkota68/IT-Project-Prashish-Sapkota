@@ -4,7 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Service Page</title>
-    <link rel="stylesheet" href="../css/navigation.css"
+    <link rel="stylesheet" href="../css/navigation.css">
+    <style>
+    
+    .service-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px; 
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 1200px;
+    width: 90%;
+    justify-items: center; 
+}
+
+.service-container > div {
+    background-color: #f4f4f4;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-container .transportation {
+    background-image: url('../images/transportation.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.service-container .art {
+    background-image: url('../images/art.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+}
+
+.service-container .sport {
+    background-image: url('../images/sport.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.service-container > div h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.service-container > div p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+   
+
+
+</style>
 </head>
 <body>
     
@@ -22,6 +84,84 @@
     </div>
     </header>
     <hr>
+
+
+    <center><h2>Academic Services</h2></center>
+
+
+<table border="1" cellpadding="10" cellspacing="0" style="width:100%; border-collapse: collapse; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th rowspan="2">Grade Level</th>
+      <th colspan="3">Subjects Offered</th>
+      <th rowspan="2">Facilities</th>
+    </tr>
+    <tr>
+      <th>Core Subjects</th>
+      <th>Electives</th>
+      <th>Languages</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Primary (Nursery-Grade 5)</td>
+      <td>Math, Science, English</td>
+      <td>Art, Music</td>
+      <td>English, Nepali</td>
+      <td rowspan="3">Library, Smart Classes, Computer Lab</td>
+    </tr>
+    <tr>
+      <td>Middle School (Grade 6-8)</td>
+      <td>Math, Science, English, Social Studies</td>
+      <td>Art, Dance</td>
+      <td>English, Nepali</td>
+    </tr>
+    <tr>
+      <td>High School (Grade 9-12)</td>
+      <td>Math, Physics, Chemistry, Biology, English</td>
+      <td>Computer, Business Studies</td>
+      <td>English, Nepali</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<div class="service-container">
+    <div class="transportation">
+        <h3>Transportation</h3>
+        <p>We provide safe and reliable bus services across the city with GPS tracking and experienced drivers.</p>
+    </div>
+
+    <div class="art">
+        <h3>Art and Culture</h3>
+        <p> we believe that education extends beyond academics. 
+            Our Art and Culture Program is designed to nurture creativity, celebrate diversity, and cultivate an appreciation for artistic expression among our students.</p>
+    </div>
+
+
+    <div class="sport">
+        <h3>Sport</h3>
+        <p> we recognize the vital role sports play in shaping well-rounded individuals. 
+            Our Sports Program encourages physical fitness, teamwork, discipline, 
+            and a spirit of healthy competition among students.</p>
+    </div>
+</div>
+
+
+<footer style="background-color: #f4f4f4; padding: 20px; text-align: center;"> 
+    <p>&copy; 2025 Wise Vision. All rights reserved</p>
+    <p>kawasoti-12, Nawalparasi | Phone: 010584393 | Email: info@wisevision.edu</p>
+    <p>
+        
+    Follow us:
+    <a href="https://facebook.com" target="_blank">Facebook</a>
+    <a href="https:instagram.com" target="_blank">Instagram</a>
+    </p>
+
+</footer>
+
+
 
 
 

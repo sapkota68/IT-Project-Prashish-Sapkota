@@ -37,16 +37,6 @@
             border-radius: 3px 0 0 3px;
         }
 
-        .register
-        {
-            background-color: #8e44ad;
-            width: 10%;
-            border-radius: 3px;
-            justify-content: center;
-            height: 20%;
-        }
-
-
         .dot{
             cursor: pointer;
             height: 15px;
